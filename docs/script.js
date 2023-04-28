@@ -9,9 +9,13 @@ let attempts = 0;
 correctPositions = 0;
 let previousGuesses = [];
 userGuess.addEventListener("input", () => {
+  const nonNumeric = /[^1-9]/g;
+  const hasNonNumeric = nonNumeric.test(userGuess.value);
   submitGuess.disabled =
     userGuess.value.length !== 4 ||
     userGuess.value.includes("0") ||
+    userGuess.value.length === 0 ||
+    hasNonNumeric ||
     new Set(userGuess.value).size !== userGuess.value.length ||
     previousGuesses.includes(userGuess.value);
 });
@@ -56,7 +60,12 @@ function checkGuess(guess) {
   let correctPositions = 0;
   let secretCopy = secretNumber.slice(); // Create a copy of secretNumber to avoid modifying the original
   let guessCopy = guess.slice(); // Create a copy of the guess to avoid modifying the original
+  const nonNumeric = /[^1-9]/g;
+  const hasNonNumeric = nonNumeric.test(guess);
 
+  if (guess.length === 0 || hasNonNumeric) {
+    return { valid: false, correctDigits: 0, correctPositions: 0 };
+  }
   const hasZero = guess.includes("0");
   const hasRepeatingDigits = new Set(guess).size !== guess.length;
 
