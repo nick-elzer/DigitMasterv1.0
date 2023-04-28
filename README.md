@@ -8,6 +8,9 @@ The player has 10 attempts to guess the secret number. After each guess, the pla
 
 To solve this puzzle, you can use a systematic approach to make your guesses.
 
+click the link to play, or download for yourself!
+https://nick-elzer.github.io/DigitMasterv1.0/
+
 ## Table of Contents
 
 - [Installation](#installation)
@@ -28,7 +31,15 @@ To install and run DigitMaster, follow these steps:
 
 ## Usage
 
-To play DigitMaster, simply type in your best guess and hit enter! (or click the button lol)
+ 1. Select your level</h4>
+ .....Easy: Highlights correct position green, correct digit yellow</h4>
+ .....Medium: Highlights correct digit yellow</h4>
+ .....Hard: No highlights</h4>
+ 2. Only digits 1-9 are used</h4>
+ 3. No digit is repeated in the generated number</h4>
+ 4. Players only have 10 guesses to complete the challenge</h4>
+ 5. The game will generate random numbers, ensuring a unique experience each time.</h4>
+ 6. There is a progress bar and counter to keep track of the attempts</h4>
 
 ## Rules
 
