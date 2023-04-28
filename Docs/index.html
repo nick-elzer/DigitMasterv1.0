@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DigitMaster</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <button id="how-to-play">How to Play?</button>
+  <div class="level-selection">
+    <label for="level">Difficulty:</label>
+    <select id="level">
+      <option value="easy"selected>Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>  
+  <h1>DigitMaster</h1>
+  <p>Guess the 4-digit number! You have 10 attempts.</p>
+  <p>No digit is repeated in the number, *only digits 1-9*</p>
+  <div class="progress-bar">
+    <div class="bar"></div>
+  </div>
+  <div class="color-fan"></div>
+  <div class="modal">
+    <div class="modal-content">
+      <span class="close-button">×</span>
+      <h2 id="result-message">Result message...</h2>
+      <button id="play-again">Play Again</button>
+    </div>
+  </div>
+  <div class="game-container">
+    <table>
+      <thead>
+        <tr>
+          <th>Round</th>
+          <th>Guess</th>
+          <th>Correct Digits</th>
+          <th>Correct Positions</th>
+        </tr>
+      </thead>
+      <tbody id="guess-table-body">
+      </tbody>
+    </table>
+    <div class="input-container">
+      <form id="guess-form">
+        <input type="text" id="user-guess" />
+        <button type="submit" id="submit-guess">Enter</button>
+      </form>
+    </div>
+  </div>
+  <div id="result-message" class="hidden"></div>
+  <div class="modal2">
+    <div class="modal2-content">
+      <h3>How to Play</h3>
+      <h3>----Select your level----</h3>
+      <h4>1.  Easy: Highlights correct position green, correct digit yellow</h4>
+      <h4>2.  Medium: Highlights correct digit yellow</h4>
+      <h4>3.  Hard: No highlights</h4>
+      <h4>-Only digits 1-9 are used</h4>
+      <h4>-No digit is repeated in the generated number</h4>
+      <h4>-Players only have 10 guesses to complete the challenge</h4>
+      <h4>-The game will generate random numbers, ensuring a unique experience each time.</h4>
+      <h4>-There is a progress bar and counter to keep track of the attempts</h4>
+      <button class="exit-button">Got it!</button>
+    </div>
+  </div>  
+  <script src="script.js"></script>
+</body>
+<footer id="footer">Created by Nick Elzer</footer>
+
+</html>
