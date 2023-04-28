@@ -40,7 +40,7 @@ To play DigitMaster, simply type in your best guess and hit enter! (or click the
 
 ## Screenshot
 
-![DigitMaster Interface](DigitMaster/DigitMasterCapture2.png)
+![DigitMaster Interface](docs/DigitMasterCapture2.png)
 
 ## Credits
 
