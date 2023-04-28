@@ -31,6 +31,7 @@ h3{
 }
 
 .game-container {
+    position: relative;
     display: inline-block;
     width: 100%;
     max-width: 500px;
@@ -39,6 +40,7 @@ h3{
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-top: 20px;
+    z-index: 2;
 }
 
 table {
@@ -62,6 +64,8 @@ th {
     display: flex;
     justify-content: space-between;
     color: #8d7d7d;
+    position: relative;
+    z-index: 3;
 }
 
 input {
@@ -218,6 +222,7 @@ button:disabled {
     bottom: 0;
     width: 94%;
     height: 2.5rem;            /* Footer height */
+    z-index: 1;
   }
   .level-selection {
     position: absolute;
