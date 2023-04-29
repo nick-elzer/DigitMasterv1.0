@@ -8,6 +8,8 @@ The player has 10 attempts to guess the secret number. After each guess, the pla
 
 To solve this puzzle, you can use a systematic approach to make your guesses.
 
+*Now including levels!*
+
 click the link to play, or download for yourself!
 https://nick-elzer.github.io/DigitMasterv1.0/
 
@@ -26,8 +28,8 @@ To install and run DigitMaster, follow these steps:
 1. Clone the repository:
 ``` git clone https://github.com/nick-elzer/DigitMasterv1.0.git ```
 2. Navigate to the project directory:
-``` cd DigitMaster ```
-4. Open 'DigitMaster.html', the game should open in your default web browser.
+``` cd DigitMasterv1.0/docs ```
+4. Open 'index.html', the game should open in your default web browser.
 
 ## Usage
 
