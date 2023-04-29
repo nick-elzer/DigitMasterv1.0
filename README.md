@@ -8,7 +8,7 @@ The player has 10 attempts to guess the secret number. After each guess, the pla
 
 To solve this puzzle, you can use a systematic approach to make your guesses.
 
-*Now including levels!*
+*Now including 3 difficulties!*
 
 click the link to play, or download for yourself!
 https://nick-elzer.github.io/DigitMasterv1.0/
