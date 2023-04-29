@@ -24,7 +24,7 @@ https://nick-elzer.github.io/DigitMasterv1.0/
 To install and run DigitMaster, follow these steps:
 
 1. Clone the repository:
-``` git clone https://github.com/nick-elzer/DigitMaster.git ```
+``` git clone https://github.com/nick-elzer/DigitMasterv1.0.git ```
 2. Navigate to the project directory:
 ``` cd DigitMaster ```
 4. Open 'DigitMaster.html', the game should open in your default web browser.
