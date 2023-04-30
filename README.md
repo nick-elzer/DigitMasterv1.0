@@ -2,7 +2,7 @@
 
 ## Description
 
-DigitMaster is a fun and engaging game designed to help users improve their mathematical skills. The game presents randomly generated 4-digit numbers, and players must solve figure them out as quickly and accurately as possible. The game is perfect for anyone looking to sharpen their mental math abilities and have a great time doing it.
+DigitMaster is a fun and engaging game designed to help users improve their pattern recognition and problem solving skills. The game presents randomly generated 4-digit numbers, and players must solve figure them out as quickly and accurately as possible. The game is perfect for anyone looking to sharpen their mental abilities and have a great time doing it.
 
 The player has 10 attempts to guess the secret number. After each guess, the player is provided with feedback on the number of correct digits and the number of correct digits in the correct position. The game ends when either the player guesses the correct number or exhausts all 10 attempts.
 
