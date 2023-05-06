@@ -222,7 +222,7 @@ button:disabled {
     bottom: 0;
     width: 94%;
     height: 2.5rem;            /* Footer height */
-    z-index: 1;
+    z-index: -1;
   }
   .level-selection {
     position: absolute;
